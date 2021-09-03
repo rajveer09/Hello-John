@@ -1,0 +1,687 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 15px;
+}
+
+// navigation starts 
+
+.logo{
+    position: absolute;
+    top: 5%;
+    left: 3%;
+}
+
+.menuline{
+    position: absolute;
+    top: 4%;
+    right: 3%;
+    font-size: 32px;
+    margin-right: 50px;
+     cursor: pointer;
+}
+
+.sidenav{
+     height: 100%;
+     width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    background-color: #272634;
+    z-index: 1;
+    padding-top: 60px;
+    transition: all 0.5s;
+}
+
+.sidenav a{
+    display: block;
+    padding: 30px 0 30px 20px;
+    color: #fff;
+    font-size: 21px;
+}
+
+.sidenav a:hover{
+    background-color: #4267B2;
+    color: #fff;
+    box-shadow: 5px 10px 30px rgba(252, 59,0,0.397);
+}
+
+.closebtn{
+    position: absolute;
+    top: -18px;
+    right: 25px;
+    font-size: 40px !important;
+}
+
+.closebtn:hover{
+    background: none !important;
+    box-shadow: none !important;
+}
+
+.social-media{
+    position: absolute;
+    top: 4%;
+    right: 17%;
+    font-size: 28px;
+}
+
+.social{
+    font-size: 40px;
+    padding: 10px;
+}
+
+// navigation ends
+
+
+// Banner starts 
+
+.all{
+    margin-top: 10rem;
+}
+
+.one{
+        background-image: url(./images/reer-min.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+    img{
+        width: 100%;
+    }
+}
+
+.blue-div{
+    // border: 1px solid blue;
+    background: #4267B2;
+    width: 16rem;
+    height: 66rem;
+}
+
+.banner-text{
+    margin-left: 3rem;
+    h1{
+        font-size: 60px;
+        font-weight: 700;
+    }
+
+    h3{
+        color: #4267B2;
+        font-weight: 500;
+        margin-bottom: 2rem;
+    }
+
+    p{
+        font-size: 18px;
+        margin-bottom: 2rem;
+    }
+
+    .fa{
+        font-size: 20px;
+        color: #4267B2;
+        margin-bottom: 2rem;
+        margin-top: 1rem;
+    }
+
+    .dodger{
+        color:#4267B2;
+    }
+
+    .font{
+        font-size: 18px;
+    }
+
+    .my-btn{
+        width: 327px;
+        height: 55px;
+        background-color: #4267B2;
+        color: #fff;
+        font-size: 23px;
+        border: 0;
+        border-radius: 10px;
+        margin-top: 3rem;
+    }
+    .download{
+        margin-top: 1px;
+    }
+}
+
+// Banner ends 
+
+
+// <!-- concept starts  -->
+
+.concept{
+    width: 100%;
+    background-color: rgb(236, 230, 230);
+    padding: 5% 5%;
+
+    .deseign{
+        text-align: center;
+
+        h1{
+            font-size: 5rem;
+            font-weight: 700;
+        }
+
+        h3{
+           font-size: 2rem;
+           line-height: 30px;
+        }
+    }
+
+    .editing{
+        max-width: 1100px;
+        h1{
+           font-size: 28px;
+           font-weight: 700;
+           color: #4267B2;
+           margin-bottom: 2rem;
+        }
+
+        p{
+            font-size: 18px;
+        }
+    }
+}
+
+// <!-- concept ends  -->
+
+// my-work starts 
+
+.my-work{
+    width: 100%;
+    background-color: #272634;
+    color: #fff;
+    padding: 5% 5%;
+    .work-text{
+        text-align: center;
+
+        h1{
+            font-size: 50px;
+            font-weight: 700;
+            margin-bottom: 2rem;
+        }
+
+        p{
+            font-size: 18px;
+            color: rgb(121, 118, 118);
+        }
+    }
+}
+
+.project1{
+    display: flex;
+    flex-wrap: wrap;
+
+    .box1{
+       margin: 10px auto;
+       position: relative;
+       overflow: hidden;
+       width: 33.3%;
+       margin-top: -10px;
+    }
+
+    .box1 img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .content{
+        background-color: #4267B2;
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        color: #fff;
+        padding: 20px;
+        box-sizing: border-box;
+        transition: all 0.7s;
+        text-align: center;
+
+        h1{
+            margin-top: 10rem;
+        }
+    }
+
+    .box1:hover .content {
+        left: 0;
+    }
+}
+
+// my-work ends
+
+
+// <!-- expertise starts  -->
+
+.expertise{
+    width: 100%;
+    background-color: #272634;
+    color: rgb(121, 118, 118);
+    padding: 5% 5%;
+
+    h3{
+        font-weight: 700;
+        color: #fff;
+    }
+
+    h1{
+          font-size: 50px;
+          font-weight: 700;
+          margin-bottom: 2rem;
+          color: #fff;
+    }
+
+    p{
+        font-size: 20px;
+    }
+
+    .blue-btn{
+        width: 200px;
+        height: 50px;
+        background-color: #4267B2;
+        font-size: 21px;
+        border: 0;
+        border-radius: 10px;
+        color: #fff;
+        margin-top: 3rem;
+    }
+}
+
+// <!-- expertise ends  -->
+
+
+// <!-- profile starts  -->
+
+.profile{
+    width: 100%;
+    text-align: center;
+
+    h1{
+        font-weight: 700;
+        margin-bottom: 1rem;
+    }
+
+    h3{
+        font-size: 25px;
+    }
+
+    img{
+        width: 20%;
+        border-radius: 50%;
+        margin-bottom: 3rem;
+    }
+
+    .blue-box{
+        width: 550px;
+        height: auto;
+        background-color: #4267B2;
+        color: #fff;
+        padding: 30px;
+        margin: 0 auto;
+        margin-bottom: 3rem;
+
+        h2{
+           font-weight: 700;
+        }
+
+        p{
+            font-size: 18px;
+        }
+    }
+
+    h3{
+        font-weight: 700;
+    }
+
+    p{
+        font-size: 17px;
+    }
+
+    .social{
+        font-size: 21px;
+        font-weight: 700;
+        color: #000;
+        margin-bottom: 4rem;
+    }
+}
+
+// <!-- profile ends  -->
+
+
+// <!-- pricing-table starts  -->
+
+.pricing-table{
+    width: 100%;
+    background-color: #4267B2;
+    text-align: center;
+    padding: 5% 5%;
+
+    .table{
+        color: #fff;
+
+        h1{
+            font-size: 42px;
+            font-weight: 700;
+            margin-bottom: 2rem;
+        }
+
+        p{
+            font-size: 17px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    }
+
+    .white-box{
+        background-color: #fff;
+        // border: 1px solid red;
+        width: 31%;
+        margin: 10px;
+        padding: 20px 0;
+
+        h3{
+            color: #4267B2;
+            font-weight: 700;
+        }
+
+        h1{
+           font-size: 45px;
+           color: #4267B2;
+        }
+
+        p{
+           font-size: 17px;
+        }
+
+        hr{
+           width: 70%;
+           background: gray;
+        //    height: 0.5px;
+        }
+
+        .arrow{
+            padding: 15px;
+            border: 2px solid #4267B2;
+            width: 40%;
+            margin: 0 auto;
+
+            .fa{
+                color: #4267B2;
+            }
+        }
+
+        .arrow1{
+            background-color: #4267B2;
+        }
+    }
+}
+
+// <!-- pricing-table ends  -->
+
+
+// <!-- happy-customers starts   -->
+
+.happy{
+    width: 100%;
+    background-image: url(./images/chair.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5% 5%;
+    color: #fff;
+    position: relative;
+
+    .tra-box{
+        border: 2px solid #fff;
+        padding: 30px;
+        text-align: center;
+        width: 23%;
+        margin: 10px;
+        z-index: 1;
+
+        h1{
+            border: 2px solid #fff;
+            padding: 25px;
+            display: inline-block;
+            border-radius: 50%;
+        }
+    }
+    
+}
+
+.happy::after{
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.6;
+    top: 0;
+    left: 0;
+}
+
+// <!-- happy-customers ends-->
+
+
+// <!-- contact starts  -->
+
+.contact{
+    width: 100%;
+    padding: 5% 5%;
+    color: #4267B2;
+
+    .form-left{
+
+        p{
+            font-size: 18px;
+        }
+
+        h1{
+            font-weight: 700;
+            margin-bottom: 3rem;
+        }
+
+        a{
+            font-size: 16px;
+            text-decoration: underline;
+            font-weight: 700;
+        }
+
+        .social{
+            font-size: 25px;
+            margin-bottom: 2rem;
+        }
+    }
+
+
+    .form-right{
+        background-color: rgb(180, 179, 179);
+        padding: 56px 45px;
+        margin: 0 auto;
+
+        h1{
+            font-size: 40px;
+            font-weight: 700;
+            margin-bottom: 2rem;
+        }
+
+        input{
+            width: 100%;
+            height: 60px;
+            margin-bottom: 3rem;
+            border: 0;
+        }
+
+        textarea{
+            width: 100%;
+            margin-bottom: 3rem;
+            border: 0;
+        }
+
+        .btn{
+            width: 150px;
+            height: 40px;
+            background-color: #4267B2;
+            font-size: 22px;
+            color: #fff;
+        }
+
+        div{
+           text-align: right;
+        }
+    }
+}
+
+// <!-- contact ends  -->
+
+
+// footer starts 
+
+
+.footer{
+    width: 100%;
+    background-color: rgb(46, 43, 43);
+    color: #fff;
+    text-align: center;
+    padding: 4% 4%;
+
+    .para{
+         font-size: 16px;
+         margin-bottom: 10rem;
+    }
+
+    p{
+          a{
+              color: #4267B2;
+          }
+    }
+}
+
+
+// footer ends 
+
+
+
+// media-queries 
+
+@media only screen and (max-width:1000px){
+
+    .happy .tra-box{
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .pricing-table .white-box {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:500px){
+
+.menuline{
+    margin-right: 0;
+}
+
+.all .blue-div{
+    position: absolute;
+    top: 17.5%;
+    right: -60px;
+    width: 6.5rem;
+    height: 114rem;
+}
+
+.concept{
+    margin-top: 5rem;
+}
+
+.project1 .box1{
+    width: 100%;
+}
+
+.expertise .blue-btn {
+    margin-bottom: 4rem;
+}
+
+.profile .blue-box {
+    width: auto;
+}
+
+.banner-text .my-btn {
+    width: 245px;
+    height: 49px;
+    font-size: 20px;
+}
+
+.one{
+    width: 85%;
+}
+
+.all .blue-div {
+    right: 2px;
+}
+
+.happy h2{
+    font-size: 19px;
+}
+
+.happy .tra-box{
+    margin-bottom: 3rem;
+}
+
+.banner-text{
+    margin-left: 0;
+    overflow: hidden;
+    // border: 1px solid red;
+    width: 88%;
+
+    p{
+
+    }
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+    
+
+   
+
+
+
+
+
+
+

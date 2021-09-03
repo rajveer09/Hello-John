@@ -1,0 +1,588 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 15px;
+}
+
+.logo {
+  position: absolute;
+  top: 5%;
+  left: 3%;
+}
+
+.menuline {
+  position: absolute;
+  top: 4%;
+  right: 3%;
+  font-size: 32px;
+  margin-right: 50px;
+  cursor: pointer;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  background-color: #272634;
+  z-index: 1;
+  padding-top: 60px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.sidenav a {
+  display: block;
+  padding: 30px 0 30px 20px;
+  color: #fff;
+  font-size: 21px;
+}
+
+.sidenav a:hover {
+  background-color: #4267B2;
+  color: #fff;
+  -webkit-box-shadow: 5px 10px 30px rgba(252, 59, 0, 0.397);
+          box-shadow: 5px 10px 30px rgba(252, 59, 0, 0.397);
+}
+
+.closebtn {
+  position: absolute;
+  top: -18px;
+  right: 25px;
+  font-size: 40px !important;
+}
+
+.closebtn:hover {
+  background: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.social-media {
+  position: absolute;
+  top: 4%;
+  right: 17%;
+  font-size: 28px;
+}
+
+.social {
+  font-size: 40px;
+  padding: 10px;
+}
+
+.all {
+  margin-top: 10rem;
+}
+
+.one {
+  background-image: url(./images/reer-min.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.one img {
+  width: 100%;
+}
+
+.blue-div {
+  background: #4267B2;
+  width: 16rem;
+  height: 66rem;
+}
+
+.banner-text {
+  margin-left: 3rem;
+}
+
+.banner-text h1 {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.banner-text h3 {
+  color: #4267B2;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.banner-text p {
+  font-size: 18px;
+  margin-bottom: 2rem;
+}
+
+.banner-text .fa {
+  font-size: 20px;
+  color: #4267B2;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+
+.banner-text .dodger {
+  color: #4267B2;
+}
+
+.banner-text .font {
+  font-size: 18px;
+}
+
+.banner-text .my-btn {
+  width: 327px;
+  height: 55px;
+  background-color: #4267B2;
+  color: #fff;
+  font-size: 23px;
+  border: 0;
+  border-radius: 10px;
+  margin-top: 3rem;
+}
+
+.banner-text .download {
+  margin-top: 1px;
+}
+
+.concept {
+  width: 100%;
+  background-color: #ece6e6;
+  padding: 5% 5%;
+}
+
+.concept .deseign {
+  text-align: center;
+}
+
+.concept .deseign h1 {
+  font-size: 5rem;
+  font-weight: 700;
+}
+
+.concept .deseign h3 {
+  font-size: 2rem;
+  line-height: 30px;
+}
+
+.concept .editing {
+  max-width: 1100px;
+}
+
+.concept .editing h1 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #4267B2;
+  margin-bottom: 2rem;
+}
+
+.concept .editing p {
+  font-size: 18px;
+}
+
+.my-work {
+  width: 100%;
+  background-color: #272634;
+  color: #fff;
+  padding: 5% 5%;
+}
+
+.my-work .work-text {
+  text-align: center;
+}
+
+.my-work .work-text h1 {
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.my-work .work-text p {
+  font-size: 18px;
+  color: #797676;
+}
+
+.project1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.project1 .box1 {
+  margin: 10px auto;
+  position: relative;
+  overflow: hidden;
+  width: 33.3%;
+  margin-top: -10px;
+}
+
+.project1 .box1 img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.project1 .content {
+  background-color: #4267B2;
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
+  text-align: center;
+}
+
+.project1 .content h1 {
+  margin-top: 10rem;
+}
+
+.project1 .box1:hover .content {
+  left: 0;
+}
+
+.expertise {
+  width: 100%;
+  background-color: #272634;
+  color: #797676;
+  padding: 5% 5%;
+}
+
+.expertise h3 {
+  font-weight: 700;
+  color: #fff;
+}
+
+.expertise h1 {
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: #fff;
+}
+
+.expertise p {
+  font-size: 20px;
+}
+
+.expertise .blue-btn {
+  width: 200px;
+  height: 50px;
+  background-color: #4267B2;
+  font-size: 21px;
+  border: 0;
+  border-radius: 10px;
+  color: #fff;
+  margin-top: 3rem;
+}
+
+.profile {
+  width: 100%;
+  text-align: center;
+}
+
+.profile h1 {
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.profile h3 {
+  font-size: 25px;
+}
+
+.profile img {
+  width: 20%;
+  border-radius: 50%;
+  margin-bottom: 3rem;
+}
+
+.profile .blue-box {
+  width: 550px;
+  height: auto;
+  background-color: #4267B2;
+  color: #fff;
+  padding: 30px;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+}
+
+.profile .blue-box h2 {
+  font-weight: 700;
+}
+
+.profile .blue-box p {
+  font-size: 18px;
+}
+
+.profile h3 {
+  font-weight: 700;
+}
+
+.profile p {
+  font-size: 17px;
+}
+
+.profile .social {
+  font-size: 21px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 4rem;
+}
+
+.pricing-table {
+  width: 100%;
+  background-color: #4267B2;
+  text-align: center;
+  padding: 5% 5%;
+}
+
+.pricing-table .table {
+  color: #fff;
+}
+
+.pricing-table .table h1 {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.pricing-table .table p {
+  font-size: 17px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.pricing-table .white-box {
+  background-color: #fff;
+  width: 31%;
+  margin: 10px;
+  padding: 20px 0;
+}
+
+.pricing-table .white-box h3 {
+  color: #4267B2;
+  font-weight: 700;
+}
+
+.pricing-table .white-box h1 {
+  font-size: 45px;
+  color: #4267B2;
+}
+
+.pricing-table .white-box p {
+  font-size: 17px;
+}
+
+.pricing-table .white-box hr {
+  width: 70%;
+  background: gray;
+}
+
+.pricing-table .white-box .arrow {
+  padding: 15px;
+  border: 2px solid #4267B2;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.pricing-table .white-box .arrow .fa {
+  color: #4267B2;
+}
+
+.pricing-table .white-box .arrow1 {
+  background-color: #4267B2;
+}
+
+.happy {
+  width: 100%;
+  background-image: url(./images/chair.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5% 5%;
+  color: #fff;
+  position: relative;
+}
+
+.happy .tra-box {
+  border: 2px solid #fff;
+  padding: 30px;
+  text-align: center;
+  width: 23%;
+  margin: 10px;
+  z-index: 1;
+}
+
+.happy .tra-box h1 {
+  border: 2px solid #fff;
+  padding: 25px;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.happy::after {
+  content: " ";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.6;
+  top: 0;
+  left: 0;
+}
+
+.contact {
+  width: 100%;
+  padding: 5% 5%;
+  color: #4267B2;
+}
+
+.contact .form-left p {
+  font-size: 18px;
+}
+
+.contact .form-left h1 {
+  font-weight: 700;
+  margin-bottom: 3rem;
+}
+
+.contact .form-left a {
+  font-size: 16px;
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+.contact .form-left .social {
+  font-size: 25px;
+  margin-bottom: 2rem;
+}
+
+.contact .form-right {
+  background-color: #b4b3b3;
+  padding: 56px 45px;
+  margin: 0 auto;
+}
+
+.contact .form-right h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.contact .form-right input {
+  width: 100%;
+  height: 60px;
+  margin-bottom: 3rem;
+  border: 0;
+}
+
+.contact .form-right textarea {
+  width: 100%;
+  margin-bottom: 3rem;
+  border: 0;
+}
+
+.contact .form-right .btn {
+  width: 150px;
+  height: 40px;
+  background-color: #4267B2;
+  font-size: 22px;
+  color: #fff;
+}
+
+.contact .form-right div {
+  text-align: right;
+}
+
+.footer {
+  width: 100%;
+  background-color: #2e2b2b;
+  color: #fff;
+  text-align: center;
+  padding: 4% 4%;
+}
+
+.footer .para {
+  font-size: 16px;
+  margin-bottom: 10rem;
+}
+
+.footer p a {
+  color: #4267B2;
+}
+
+@media only screen and (max-width: 1000px) {
+  .happy .tra-box {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .pricing-table .white-box {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .menuline {
+    margin-right: 0;
+  }
+  .all .blue-div {
+    position: absolute;
+    top: 17.5%;
+    right: -60px;
+    width: 6.5rem;
+    height: 114rem;
+  }
+  .concept {
+    margin-top: 5rem;
+  }
+  .project1 .box1 {
+    width: 100%;
+  }
+  .expertise .blue-btn {
+    margin-bottom: 4rem;
+  }
+  .profile .blue-box {
+    width: auto;
+  }
+  .banner-text .my-btn {
+    width: 245px;
+    height: 49px;
+    font-size: 20px;
+  }
+  .one {
+    width: 85%;
+  }
+  .all .blue-div {
+    right: 2px;
+  }
+  .happy h2 {
+    font-size: 19px;
+  }
+  .happy .tra-box {
+    margin-bottom: 3rem;
+  }
+  .banner-text {
+    margin-left: 0;
+    overflow: hidden;
+    width: 88%;
+  }
+}
+/*# sourceMappingURL=john.css.map */
